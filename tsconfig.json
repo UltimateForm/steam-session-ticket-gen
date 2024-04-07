@@ -1,0 +1,19 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Node 20",
+	"_version": "20.1.0",
+
+	"compilerOptions": {
+		"lib": ["es2023", "DOM"],
+		"module": "Preserve",
+		"target": "es2022",
+		"outDir": "./out/ts",
+		"rootDir": "src",
+		"declaration": true,
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"moduleResolution": "Bundler"
+	},
+	"include": ["src"]
+}
